@@ -1,0 +1,16 @@
+@media  screen and (max-width: 768px) {
+    .toggle-menu {
+        display: flex;
+        flex-direction: column;
+        gap: 8px;
+        cursor: pointer;
+        margin-right: -10px;
+    }
+
+    .toggle-menu span {
+        display: block;
+        background-color: rgba(26, 26, 26, 0.905);
+        height: 2px;
+        width: 35px;
+    }
+}
